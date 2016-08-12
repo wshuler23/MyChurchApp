@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#FFF">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TBC Mission"
+        android:id="@+id/textView2"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tabernacle Baptist Church of Burlington, New Jersey ‘s mission is to be a Christ-centered village dedicated to the development of church and community through worship, service, sharing, teaching and preaching."
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabernacle-burlington.org"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#2200CC"
+        android:onClick="browser10"
+        android:layout_marginBottom="8dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/tbc"
+            android:layout_weight="0.16"
+            android:paddingLeft="8dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="8dp"
+            android:text="Tabernacle-burlington.org"
+            android:onClick="browser14"
+            android:textColor="#2200CC" />
+
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:src="@drawable/twitter"
+                android:paddingLeft="8dp" />
+
+            <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:text="Follow us on Twitter"
+                android:onClick="browser15"
+                android:textColor="#2200CC" />
+
+        </TableRow>
+
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:weightSum="1"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/facebook"
+            android:layout_weight="0.16"
+            android:paddingLeft="8dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:text="Follow us on Facebook "
+            android:onClick="browser16"
+            android:textColor="#2200CC" />
+
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="8dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="38dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/call"
+            android:layout_marginLeft="-80dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_marginLeft="-80dp">
+
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView5"
+                android:text="Phone: 609-386-4785"
+                android:onClick="browser17"
+                android:textColor="#2200CC"
+                android:layout_marginLeft="-80dp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="38dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/contactus"
+            android:layout_marginLeft="-80dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView6"
+            android:text="Contact Us"
+            android:onClick="browser19"
+            android:textColor="#2200CC"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1"
+            android:layout_marginLeft="-80dp">
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:background="#000">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:src="@drawable/give"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Giving is Easy!"
+            android:textSize="16sp"
+            android:textColor="#FFF"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give, and it will be given to you. Good measure,pressed down, shaken together, running over,will be put into your lap. For with the measure you use it will be measured back to you.” Luke 6:38 ESV"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:textColor="#FFF"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:text="(Your private information is secured using SSL (Secure Sockets Layer), the leading security protocol on the Internet. Information is encrypted and exchanged with
+an https server.)"
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:text="BUILDING FUND"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick = "browser2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="GENERAL OFFERING"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser3"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="MISSIONS"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="PLEDGE"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="SCHOLARSHIP FUND"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="TITHE"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser7"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+        <Button
+            android:text="FACILITY USAGE"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:onClick="browser8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>
